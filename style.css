@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/another-name-for');
+
+body{
+    background-color: 	#dac4c2;
+    text-align: center;
+    font-family: 'Another name for', sans-serif;
+    
+}
+
+
+
+h1{
+
+    font-size: 90;
+    color: white;
+    margin: 0;
+    user-select: none;
+ 
+ }
+
+
+
+h2{
+    font-size: 150px;
+    margin: 50;
+    user-select: none;
+
+}
+
+.css-button-shadow-border-sliding--grey {
+    min-width: 130px;
+
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #495057;
+   z-index: 1;
+  }
+  .css-button-shadow-border-sliding--grey:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .css-button-shadow-border-sliding--grey:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #6c757d;
+    right: 0;
+  }
+  .css-button-shadow-border-sliding--grey:active {
+    top: 2px;
+  }
+
+button{
+    
+    font-size: 50px;
+    margin: 0;
+    user-select: none;
+    cursor: pointer;
+    width: 190px;
+    height: 90px;
+
+}
+
+
+
+
+
+
+
+
